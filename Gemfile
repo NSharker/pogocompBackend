@@ -32,7 +32,7 @@ end
 group :development do
 end
 
-group :production do
+group :production, :staging do
   gem 'pg', '0.18.4'
 end
 
